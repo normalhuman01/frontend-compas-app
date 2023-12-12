@@ -1,0 +1,46 @@
+# Created by https://www.gitignore.io/api/windows,laravel,grunt,cloud9
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
+### Laravel ###
+/bootstrap/compiled.php
+.env.*.php
+.env.php
+.env
+
+
+### grunt ###
+# Grunt usually compiles files inside this directory
+dist/
+
+# Grunt usually preprocesses files such as coffeescript, compass... inside the .tmp directory
+.tmp/
+
+
+### Cloud9 ###
+# Cloud9 IDE - http://c9.io
+.c9revisions
+.c9
+
+
+##sass
+.sass-cache
